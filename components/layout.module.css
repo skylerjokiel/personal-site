@@ -2,24 +2,52 @@
     max-width: 36rem;
     padding: 0 1rem;
     margin: 3rem auto 6rem;
-  }
-  
-  .header {
+}
+
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .headerImage {
+}
+
+.headerImage {
     width: 6rem;
     height: 6rem;
-  }
-  
-  .headerHomeImage {
+}
+
+.headerHomeImage {
     width: 8rem;
     height: 8rem;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    color: black;
+    overflow: hidden;
+    padding-bottom: 5px;
   }
   
-  .backToHome {
-    margin: 3rem 0 0;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    text-decoration: overline;
+}

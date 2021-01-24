@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export const name = 'Skyler Jokiel'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, blog }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,6 +24,16 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        {/* Header Nav Bar */}
+        <div className={styles.topnav}>
+            <Link href='/'><a className={home ? styles.active : ''}>Home</a></Link>
+            <Link href='/resume'><a>Resume</a></Link>
+            <Link href='/blog'><a className={blog ? styles.active : ''}>Blog</a></Link>
+            <Link href='/photography'><a>Photography</a></Link>
+        </div>
+
+
+        {/* Header Image and Name */}
         {home ? (
           <>
             <img
@@ -44,11 +54,6 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
           </>
         )}
       </header>
