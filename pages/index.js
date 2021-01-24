@@ -19,13 +19,14 @@ export default function Home({ allPostsData }) {
         <title>{name}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Software engineer, Photographer, Climber, Pet Lover</p>
+        <p>Software engineer, Climber, Photographer, Woodworker</p>
         <p>
           <a href="https://twitter.com/skylerjokiel">Twitter</a>
+          <br/>
           <a href="https://www.linkedin.com/in/skylerjokiel/">Linkedin</a>
         </p>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
@@ -38,7 +39,7 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section>
+      </section> */}
     </Layout>
   )
 }
