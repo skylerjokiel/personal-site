@@ -5,7 +5,15 @@ import Link from 'next/link'
 
 export const name = 'Skyler Jokiel'
 
-export default function Layout({ children, home, blog, photography, resume }) {
+export default function Layout({
+    children,
+    home,
+    blog,
+    photography,
+    resume,
+    books,
+    projects
+}) {
     return (
         <>
             <div className={styles.container}>
@@ -31,6 +39,8 @@ export default function Layout({ children, home, blog, photography, resume }) {
                         <Link href='/resume'><a className={resume ? styles.active : ''}>Resume</a></Link>
                         <Link href='/blog'><a className={blog ? styles.active : ''}>Blog</a></Link>
                         <Link href='/photography'><a className={photography ? styles.active : ''}>Photography</a></Link>
+                        <Link href='/books'><a className={books ? styles.active : ''}>Books</a></Link>
+                        <Link href='/projects'><a className={projects ? styles.active : ''}>Projects</a></Link>
                     </div>
 
 
