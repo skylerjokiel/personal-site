@@ -1,7 +1,8 @@
 .container {
+    min-height: calc(100vh - 54px - 64px);
     max-width: 36rem;
     padding: 0 1rem;
-    margin: 3rem auto 6rem;
+    margin: 3rem auto 0rem;
 }
 
 .header {
@@ -22,6 +23,11 @@
 
 .backToHome {
     margin: 3rem 0 0;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
 }
 
   /* Add a black background color to the top navigation */

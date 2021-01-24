@@ -1,6 +1,6 @@
 ---
 title: 'Easily Apply Fuji’s Film Simulations in Lightroom'
-date: '2017-10-11'
+date: '2017-11-11'
 meduim-link: 'https://medium.com/@skylerjokiel/easily-apply-fujis-film-simulations-in-lightroom-84507da3615f'
 ---
 

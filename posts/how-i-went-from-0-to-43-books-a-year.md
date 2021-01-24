@@ -1,6 +1,6 @@
 ---
 title: 'How I Went From 0 to 43 Books a Year'
-date: '2018-07-23'
+date: '2018-08-23'
 meduim-link: 'https://medium.com/@skylerjokiel/how-i-went-from-0-to-43-books-a-year-3c2816585160'
 ---
 
@@ -26,18 +26,18 @@ I've personally replaced music with audiobooks for my commute, and reading inste
 
 When I used to think of reading a book, I pictured someone cozily sitting by a fire, clutching a paperback classic. The reality is that everyone has a busy life and this romantic ideal deters rather then inspires reading. To me, reading isn't just a pastime; it's a means to knowledge and as such, it's important to use the right tool for the job. For books, this simply means format.
 
-## Audiobooks (Audible)
+### Audiobooks (Audible)
 
 This is how I personally consume 90% of the books I read. My most available time is when I'm doing an otherwise mundane task. Think groceries, driving, cleaning, or commuting. I'm also not a strong reader, and audiobooks allow me to consume books much more quickly.
 
 
 **Bonus:** While it's not for everyone and varies by the book/reader, I highly recommend attempting to listen to audiobooks at 1.5–2.5x speed. It may seem incomprehensible at first, but your brain will quickly adjust and soon you will think 1x speed sounds like slow motion.
 
-## Ebooks/Tablets (Kindle)
+### Ebooks/Tablets (Kindle)
 
 It's all about accessibility and convenience. My Kindle is in sync with my iPhone, so I can read a chapter on my phone and pickup from where I left off at home before bed. On top of that, you can carry and manage hundreds of books in a single compact device.
 
-## Paperback Books
+### Paperback Books
 
 Some books just read better in paperback. These are usually books that have pictures or examples (ex. programming or textbooks). While I personally enjoy reading paperback books, it's about the content, not the format. For me, the advantages of Audio and Ebook outweigh the nostalgia of paper.
 
