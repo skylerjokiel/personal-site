@@ -25,7 +25,7 @@ export async function getStaticPaths() {
 
 export default function Post({ postData }) {
     return (
-        <Layout>
+        <Layout blog>
             <Head>
                 <title>{postData.title}</title>
             </Head>
@@ -34,7 +34,7 @@ export default function Post({ postData }) {
                 <div className={utilStyles.lightText}>
                     <Date dateString={postData.date} />
                 </div>
-                <Markdown>
+                <Markdown options={{html:true}}>
                     {postData.content}
                 </Markdown>
             </article>

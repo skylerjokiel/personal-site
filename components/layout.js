@@ -54,6 +54,7 @@ export default function Layout({ children, home, blog }) {
                 />
               </a>
             </Link>
+            <br/>
           </>
         )}
       </header>

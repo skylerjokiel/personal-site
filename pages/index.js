@@ -15,11 +15,10 @@ export default function Home() {
           <a href="https://twitter.com/skylerjokiel">Twitter</a>
           <br/>
           <a href="https://www.linkedin.com/in/skylerjokiel/">Linkedin</a>
+          <br/>
+          <a href="https://medium.com/@skylerjokiel">Medium</a>
         </p>
       </section>
-      <p>
-        <Link href={`/blog`}>Blog</Link>
-      </p>
     </Layout>
   )
 }
