@@ -1,6 +1,8 @@
 .container {
     min-height: calc(100vh - 54px - 64px);
     max-width: 36rem;
+    min-width: 340px;
+    overflow-x: scroll;
     padding: 0 1rem;
     margin: 3rem auto 0rem;
 }
@@ -32,6 +34,8 @@
 
   /* Add a black background color to the top navigation */
 .topnav {
+    display: flex;
+    flex-wrap: wrap;
     color: black;
     overflow: hidden;
     padding-bottom: 5px;
