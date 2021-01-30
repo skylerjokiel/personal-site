@@ -77,14 +77,6 @@ export default function Layout({
 }
 
 function NavBar(props) {
-    const [hidden, setHidden] = useState(false);
-
-    const updateHiddenState = () => {
-        console.log(window.innerWidth);
-        setHidden(window.innerWidth < 580)
-    };
-    useEvent('resize', updateHiddenState, [hidden]);
-
     return (
         <div className={styles.topnav}>
             <span>
