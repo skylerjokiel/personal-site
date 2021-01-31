@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-import { Dropdown, DropdownTrigger, DropdownContent}  from 'react-simple-dropdown';
 import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -91,18 +89,4 @@ function NavBar(props) {
             </span>
         </div >
     );
-}
-
-function useEvent(event, handler, triggers) {
-    useEffect(() => {
-        // initiate the event handler
-        window.addEventListener(event, handler)
-        // run the handler once at the beginning to make sure once the component is mounted it's in the
-        // correct state
-        handler();
-        // this will clean up the event every time the component is re-rendered
-        return function cleanup() {
-            window.removeEventListener(event, handler)
-        }
-    }, triggers)
 }
